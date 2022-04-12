@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomepageActivity">
+
+  <LinearLayout
+      android:id="@+id/linearLayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_marginTop="20dp"
+      android:orientation="vertical"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
+      tools:ignore="MissingConstraints">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:text="What is Planning Poker?"
+        android:textColor="@color/pink"
+        android:textSize="8pt" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="Planning Poker is an agile planning technique where team members give their opinion on how many story points they think sprint stories are worth."
+        android:textColor="@color/black"
+        android:textSize="8pt" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:text="Story Point Values"
+        android:textColor="@color/pink"
+        android:textSize="8pt" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:text="The values which can be used are:"
+        android:textColor="@color/black"
+        android:textSize="8pt" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="1 2 3 5 8 10 "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:text="How is the final Story Points decided?"
+        android:textColor="@color/pink"
+        android:textSize="8pt" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:text="The final story points are decided by the most voted story points."
+        android:textColor="@color/black"
+        android:textSize="8pt" />
+
+  </LinearLayout>
+
+  <Button
+      android:id="@+id/squad_button"
+      android:layout_width="300dp"
+      android:layout_height="38dp"
+      android:layout_gravity="center"
+      android:background="@color/purple"
+      android:text="NEXT PAGE"
+      android:textAllCaps="false"
+      android:textColor="@color/white"
+      android:textSize="16dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.495"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+      app:layout_constraintVertical_bias="0.235"
+      tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

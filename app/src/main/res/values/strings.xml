@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Planning Poker</string>
+
+    <string-array name="sprintNumber">
+            <item>1.1</item>
+            <item>1.2</item>
+    </string-array>
+
+</resources>
